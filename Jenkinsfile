@@ -20,3 +20,8 @@ pipeline {
             steps {
                 script {
                   sh "trivy image IMAGE_NAME"
+                }
+            }   
+        }
+    }
+}
